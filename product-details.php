@@ -56,9 +56,14 @@
             </div>
         </div>
 
+        <header class="header-area clearfix">
         <!-- Header Area Start -->
        <?php include_once('./inc/header.php')?>
         <!-- Header Area End -->
+         <!-- Header Area Start -->
+       <?php include_once('./inc/sidebar.php')?>
+        <!-- Header Area End -->
+        </header>
 
         <!-- Product Details Area Start -->
         <div class="single-product-area section-padding-100 clearfix">

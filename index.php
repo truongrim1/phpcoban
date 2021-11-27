@@ -57,9 +57,14 @@
         </div>
 
        
+        <header class="header-area clearfix">
         <!-- Header Area Start -->
        <?php include_once('./inc/header.php')?>
         <!-- Header Area End -->
+         <!-- Header Area Start -->
+       <?php include_once('./inc/sidebar.php')?>
+        <!-- Header Area End -->
+        </header>
         <!-- Product Catagories Area Start -->
         <div class="products-catagories-area clearfix">
             <div class="amado-pro-catagory clearfix">
