@@ -55,9 +55,15 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
+        <header class="header-area clearfix">
         <!-- Header Area Start -->
        <?php include_once('./inc/header.php')?>
         <!-- Header Area End -->
+         <!-- Header Area Start -->
+       <?php include_once('./inc/sidebar.php')?>
+        <!-- Header Area End -->
+        </header>
+        
 
         <div class="cart-table-area section-padding-100">
             <div class="container-fluid">

@@ -55,10 +55,14 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-
+        <header class="header-area clearfix">
         <!-- Header Area Start -->
        <?php include_once('./inc/header.php')?>
         <!-- Header Area End -->
+         <!-- Header Area Start -->
+       <?php include_once('./inc/sidebar.php')?>
+        <!-- Header Area End -->
+        </header>
         
        <div class="shop_sidebar_area">
 
@@ -80,7 +84,7 @@
                     </ul>
                 </div>
             </div>
-
+            
             <!-- ##### Single Widget ##### -->
             <div class="widget brands mb-50">
                 <!-- Widget Title -->
